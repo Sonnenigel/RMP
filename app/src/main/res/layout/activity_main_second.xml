@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainSecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="334dp"
+        android:layout_height="307dp"
+        app:srcCompat="@drawable/velociraptor1" />
+
+    <TextView
+        android:id="@+id/its"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:ems="14"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/its"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+
+        android:layout_marginTop="120dp"
+        android:background="@color/button"
+        android:gravity="center"
+        android:onClick="clicky"
+        android:text="@string/out"
+
+        android:textColor="@color/black"
+        android:textSize="@dimen/button"
+        app:iconTint="@color/button" />
+
+</LinearLayout>
